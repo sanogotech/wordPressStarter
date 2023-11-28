@@ -16,13 +16,20 @@ Nous allons indiquer a WordPress d’utiliser keycloak comme fournisseur d’ide
 
 Pour cela il vous faudra installer une extension a WordPress pour mettre en oeuvre openid-connect. OpenID Connect Generic Client fera très bien l’affaire. Installer donc cet extension et rendez-vous dans votre tableau de bord / Réglages / OpenId Connect Client ( /wp-admin/options-general.php?page=openid-connect-generic-settings )
 
-Client ID	wordpress-client-id
-Client Secret Key	ccd3ad80-e62f-46ca-aafa-4da3405e64e8
-OpenID Scope	openid
-Login Endpoint URL	https://auth.exemple.fr/auth/realms/master/protocol/openid-connect/auth
-Userinfo Endpoint URL	https://auth.exemple.fr/auth/realms/master/protocol/openid-connect/userinfo
-Token Validation Endpoint URL	https://auth.exemple.fr/auth/realms/master/protocol/openid-connect/token
-End Session Endpoint URL	https://auth.exemple.fr/auth/realms/master/protocol/openid-connect/logout
+Client ID	 **wordpress-client-id**
+
+Client Secret Key	 **ccd3ad80-e62f-46ca-aafa-4da3405e64e8**
+
+OpenID Scope	**openid**
+
+Login Endpoint URL	**https://auth.exemple.fr/auth/realms/master/protocol/openid-connect/auth**
+
+Userinfo Endpoint URL 	**https://auth.exemple.fr/auth/realms/master/protocol/openid-connect/userinfo**
+
+Token Validation Endpoint URL	 **https://auth.exemple.fr/auth/realms/master/protocol/openid-connect/token**
+
+End Session Endpoint URL	**https://auth.exemple.fr/auth/realms/master/protocol/openid-connect/logout**
+
 Si vous souhaitez que les utilisateurs existants soient reconnus et liés aux comptes existants, via leur email. Veillez a cocher la case
 
 Link Existing Users
