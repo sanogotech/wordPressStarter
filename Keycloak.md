@@ -9,6 +9,7 @@ votre serveur wordpress est accessible via https://www.exemple.fr
 ## Docs
 
 - https://home.cleon.re/sso-keycloak-avec-wordpress/
+- Plugin : https://fr.wordpress.org/plugins/daggerhart-openid-connect-generic/
 
 ## WordPress
 Nous allons indiquer a WordPress d’utiliser keycloak comme fournisseur d’identité. Dans cet article je vais utiliser le protocol openid-connect comme moyen de fédération.
